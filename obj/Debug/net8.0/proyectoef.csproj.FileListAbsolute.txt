@@ -130,3 +130,4 @@ C:\Users\lalvareg\Desktop\proyectoef\obj\Debug\net8.0\refint\proyectoef.dll
 C:\Users\lalvareg\Desktop\proyectoef\obj\Debug\net8.0\proyectoef.pdb
 C:\Users\lalvareg\Desktop\proyectoef\obj\Debug\net8.0\proyectoef.genruntimeconfig.cache
 C:\Users\lalvareg\Desktop\proyectoef\obj\Debug\net8.0\ref\proyectoef.dll
+C:\Users\lalvareg\Desktop\proyectoef\obj\Debug\net8.0\proyectoef.sourcelink.json
