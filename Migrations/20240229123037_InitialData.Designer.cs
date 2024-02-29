@@ -12,7 +12,7 @@ using proyectoef;
 namespace proyectoef.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    [Migration("20240228201119_InitialData")]
+    [Migration("20240229123037_InitialData")]
     partial class InitialData
     {
         /// <inheritdoc />
@@ -45,6 +45,20 @@ namespace proyectoef.Migrations
                     b.HasKey("CategoriaId");
 
                     b.ToTable("Categoria", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            CategoriaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb4ef"),
+                            Nombre = "Actividades pendientes",
+                            Peso = 20
+                        },
+                        new
+                        {
+                            CategoriaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb402"),
+                            Nombre = "Actividades personales",
+                            Peso = 50
+                        });
                 });
 
             modelBuilder.Entity("proyectoef.Models.Tarea", b =>
@@ -75,6 +89,24 @@ namespace proyectoef.Migrations
                     b.HasIndex("CategoriaId");
 
                     b.ToTable("Tarea", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            TareaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb410"),
+                            CategoriaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb4ef"),
+                            FechaCreacion = new DateTime(2024, 2, 29, 9, 30, 37, 173, DateTimeKind.Local).AddTicks(8228),
+                            PrioridadTarea = 1,
+                            Titulo = "Pago de servicios publicos"
+                        },
+                        new
+                        {
+                            TareaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb411"),
+                            CategoriaId = new Guid("fe2de405-c38e-4c90-ac52-da0540dfb402"),
+                            FechaCreacion = new DateTime(2024, 2, 29, 9, 30, 37, 173, DateTimeKind.Local).AddTicks(8319),
+                            PrioridadTarea = 0,
+                            Titulo = "Terminar de ver pelicula en netflix"
+                        });
                 });
 
             modelBuilder.Entity("proyectoef.Models.Tarea", b =>

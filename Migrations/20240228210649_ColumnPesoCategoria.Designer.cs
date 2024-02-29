@@ -12,7 +12,7 @@ using proyectoef;
 namespace proyectoef.Migrations
 {
     [DbContext(typeof(TareasContext))]
-    [Migration("20240228200535_ColumnPesoCategoria")]
+    [Migration("20240228210649_ColumnPesoCategoria")]
     partial class ColumnPesoCategoria
     {
         /// <inheritdoc />
