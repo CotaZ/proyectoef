@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qie9ZFnTHc1gCcgKPhGOg+ZkPCvbLp3GBC05hp5U/tQRTGriUFwQCkYF0pGD/UGmf/z5hPrLFrZZYZHHtcnChQ==",
+  "dgSpecHash": "KJhWpsrdy2kA964MorGDwlTQeI5y3H2N1GKeH0J/FcNrRP+CPbgUyRk+FXMnkCcFgOgGgZNnBrZ/YnWzK+Iz2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lalvareg\\Desktop\\proyectoef\\proyectoef.csproj",
+  "projectFilePath": "C:\\Users\\lalvareg\\Desktop\\proyectoef2\\proyectoef.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lalvareg\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\lalvareg\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

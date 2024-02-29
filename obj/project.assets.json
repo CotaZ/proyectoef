@@ -4084,11 +4084,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lalvareg\\Desktop\\proyectoef\\proyectoef.csproj",
+      "projectUniqueName": "C:\\Users\\lalvareg\\Desktop\\proyectoef2\\proyectoef.csproj",
       "projectName": "proyectoef",
-      "projectPath": "C:\\Users\\lalvareg\\Desktop\\proyectoef\\proyectoef.csproj",
+      "projectPath": "C:\\Users\\lalvareg\\Desktop\\proyectoef2\\proyectoef.csproj",
       "packagesPath": "C:\\Users\\lalvareg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lalvareg\\Desktop\\proyectoef\\obj\\",
+      "outputPath": "C:\\Users\\lalvareg\\Desktop\\proyectoef2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
